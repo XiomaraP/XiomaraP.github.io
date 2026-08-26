@@ -48,6 +48,22 @@ h1, h2, h3, .post-title {
   border-bottom: 2px solid var(--accent);
 }
 
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler .icon-bar {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: var(--text);
+  border-radius: 1px;
+}
+
+.navbar-toggler .icon-bar + .icon-bar {
+  margin-top: 5px;
+}
+
 /* Page content */
 .page-content {
   margin-top: 6rem;
